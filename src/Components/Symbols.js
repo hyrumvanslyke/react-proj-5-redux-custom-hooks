@@ -12,7 +12,7 @@ const Symbols = ()=>{
             ) : ("No Data Found")}
         </div>
         <div className="stack">
-        <h2>Flag of {currentDisplay.name.common}:</h2>
+        <h2>{currentDisplay.name.common} Coat of Arms:</h2>
             {currentDisplay.coatOfArms ? (
                 <img src={currentDisplay.coatOfArms.png} alt="countries coat of arms"/>
             ) : ("No Data Found")}
