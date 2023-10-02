@@ -18,7 +18,7 @@ export const { setDisplayCountry, deleteDisplayCountry } =
   displayCountrySlice.actions;
 
 export const selectDisplay = (state) => {
-  return state.displayCountry.value;
+  return state.displayedCountry.value;
 };
 
 export default displayCountrySlice.reducer;
